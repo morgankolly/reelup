@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff;
+    padding: 5px;
+    display: -moz-inline-stack;
+    margin: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+
+    align-items: center;
+
+}
+nav ul li{
+    display: inline;
+    justify-content:center ;
+    text-align: right;
+    margin: 5px;
+}
+
+.curved-button{
+    background-color: black;
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    align-items: start;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 30px; 
+    transition: background-color 0.3s;
+}
+#curved-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 30px; 
+    transition: background-color 0.3s;
+}
+
+    
+main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+h2{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    
+
+}
+button{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(28, 39, 48);
+}
